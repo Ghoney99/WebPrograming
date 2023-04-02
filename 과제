@@ -51,9 +51,7 @@
         .attribute_td {
             background-color: #f2f2f2;
             padding: 10px 1%;
-            /* 배분정렬 필요함 수정바람 */
-            /*  */
-            /*  */
+            text-align: center;
             
         }
         
@@ -70,7 +68,8 @@
     <h3>1. 기초자료</h3>
     <table border="1">
         <tr>
-            <td rowspan="6", width=150, align="center">사진</td>
+            <td rowspan="6", width=150, align="center"><img src="https://postfiles.pstatic.net/MjAyMzA0MDNfOTIg/MDAxNjgwNDQ4Mjg3Nzcy.31ZwI6DVtWmYzAEXIzM7udfASEQGRD3Gz376xUDB0B0g.f6CNh2Ql_OVEEgkn98VNNilJcH4j8UGNFr936Yuj0lcg.PNG.wifi9195/%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84.png?type=w966"
+                , style="width:100%;height:auto;"></td>
             <td class="attribute_td">성명</td>
             <td>장지헌</td>
             <td class="attribute_td">영문</td>
@@ -89,17 +88,17 @@
             <td class="attribute_td">연락처</td>
             <td>053-000-0000</td>
             <td class="attribute_td"">휴대폰</td>
-            <td>010-0000-0000</td>
+            <td>010-5437-7951</td>
         </tr>
         <tr>
             <td class="attribute_td">우편번호</td>
-            <td>123-000</td>
+            <td>41931</td>
             <td class="attribute_td">팩스번호</td>
             <td></td>
         </tr>
         <tr>
             <td class="attribute_td">주소</td>
-            <td colspan="3">대구광역시 중구 동산동</td>
+            <td colspan="3">대구시 중구 달구벌대로 2021</td>
         </tr>
     </table>
 
@@ -137,13 +136,13 @@
         </tr>
         <tr>
             <td class="date_td">0000.00 ~ 0000.00</td>
-            <td>대충 알바내용</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
-            <td class="date_td">0000.00 ~ 0000.00</td>
-            <td>대충 알바내용2</td>
-            <td> </td>
+            <td class="date_td">&#160</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td class="date_td">&#160</td>
