@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            width: 100px; height: 100px;
+            background-color: red;
+            margin: 10px;
+            float: right;
+            text-align: center;
+            line-height: 50px;
+            
+        }
+
+        /* 내가 한거 */
+        .gray-box{
+            background-color: gray;
+            width: 300px; height: 200px;
+
+        }
+        .white-box{
+            background-color: white;
+            border-radius: 10px;
+            width: 200px; height: 20px;
+            margin: 5px;
+            
+        }
+
+        .pos{
+            position:relative;
+        }
+
+        .td-font{
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* 정답 */
+        input {
+            border-radius: 10px;
+            border: none;
+        }
+
+        input[type="submit"]{
+            width: 100%;
+            background-color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"><h1>1</h1></div>
+    <div class="box"><h1>2</h1></div>
+    <div class="box"><h1>3</h1></div>
+
+    <div class="gray-box">
+        <table>
+            <tr>
+                <h1>간단한 입력양식</h1>
+            </tr>
+            <br>
+            <tr>
+                <td class="td-font">아이디</td>
+                <td><div class="white-box"></div></td>
+            </tr>
+            <tr>
+                <td class="td-font">비밀번호</td>
+                <td><div class="white-box"></div></td>
+            </tr>
+            <tr>
+                <td><h3></h3></td>
+                <td class="td-font"><div class="white-box">제출</div></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="gray-box">
+    <h1>간단한 입력양식</h1>
+    <form action="">
+        <table>
+            <tr>
+                <th>아이디</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>비밀번호</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
