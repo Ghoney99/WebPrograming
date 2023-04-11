@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>절대(absolute) 위치</title>
+
+    <style>
+        #container{
+            width: 500px; height: 300px;
+            border: 3px solid black;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .circle{
+            position:absolute;
+            width: 100px; height: 100px;
+            border-radius: 50%;
+        }
+        #red {background-color: red; left:20px; top:20px;}
+        #blue {background-color: blue; right:20px; bottom: 20px;}
+        #green {background-color: green; right:20px; top:20px;}
+        #yellow{background-color: yellow;  left:20px; bottom:20px;}
+        
+        #box {
+            width: 500px;
+            height: 600px;
+            background-color: aqua;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -250px;
+            margin-top: -300px;
+        }
+
+        .top_bar{
+            background-color: purple;
+            height: 50px;
+            position: fixed;
+            left:0; top:0; right:0 ;
+        }
+        .left_bar{
+            background-color: aqua;
+            width: 50px;
+            position: fixed;
+            left: 0px; top: 50px; bottom: 0px;
+        }
+
+        p{
+            width: 500px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-decoration: ellipsis;
+            /* 긴 텍스트를 중간에 짜르고 ...을 붙임 ex)텍스트입니... */
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="box">
+        <p>jsdfjdsf;lkjssdnflksdnflsdlfnksdnmflknsdflksdflksdnflnsdflknsdlkfnlksdnflsdnflnsdlfnlsdfnlsdnflksdnflknsdlkfnsldfnlsdnfksdnflsdnlnldkfsdfk</p>
+        <div id="container">
+            <div id="red" class="circle"></div>
+            <div id="green" class="circle"></div>
+            <div id="yellow" class="circle"></div>
+            <div id="blue" class="circle"></div>
+        </div>
+        <p>sdnflksdnflsdlfnksdnmflknsdflksdflksdnflnsdflknsdlkfnlksdnflsdnflnsdlfnlsdfnlsdnflksdnflknsdlkfnsldfnlsdnfksdnflsdnlnlsdkfnsldfnl</p>
+    </div>
+
+    <div class="top_bar">탑 메뉴</div>
+    <div class="left_bar">사이드 메뉴</div>
+</body>
+</html>
